@@ -31,7 +31,7 @@ No YAML is needed. If the card does not appear after refreshing, confirm the rep
 
 ## Manual install without YAML
 
-1. Download `ac-gauge-card.js` from this repository.
+1. Download `mini-ac-card.js` from this repository.
 2. In Home Assistant, open **Settings → Dashboards → Resources** and add `/local/ac-gauge-card.js` as a JavaScript module. If you store the file in a subfolder under `www`, use that matching `/local/...` path.
 3. Open a dashboard, choose **Edit dashboard → Add card**, and select **AC Gauge Card**.
 4. Pick the climate entity and tune the appearance and behavior in the visual editor.

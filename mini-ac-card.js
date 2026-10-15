@@ -446,7 +446,7 @@ class AcGaugeCard extends HTMLElement {
     const markerStep = parseFloat(attr.target_temp_step) || 0.5;
     // Place the inner labels at the horizontal sides of the arc rather than
     // crowding the upper-left and upper-right quadrants.
-    const gaugeTempMarkers = [0, 1 / 6, 5 / 6, 1].map((fraction) => {
+    const gaugeTempMarkers = [0, 1 / 4, 3 / 4, 1].map((fraction) => {
       const markerTemp = clamp(minT + Math.round((range * fraction) / markerStep) * markerStep, minT, maxT);
       const markerLabel = Number(markerTemp.toFixed(1)).toString();
       const [markerX, markerY] = polar(CX, CY, R + 15, ARC_START + fraction * ARC_SWEEP);

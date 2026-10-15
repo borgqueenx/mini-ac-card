@@ -1,3 +1,7 @@
 {
-  "name": "Mini AC Card"
+  "name": "Mini AC Card",
+  "content_in_root": true,
+  "filename": "mini-ac-card.js",
+  "render_readme": true,
+  "hide_default_branch": true
 }
